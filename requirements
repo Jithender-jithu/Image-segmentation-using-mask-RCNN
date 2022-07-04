@@ -1,0 +1,13 @@
+%tensorflow_version 1.x
+os
+sys
+random
+math
+numpy as np
+skimage.io
+matplotlib
+matplotlib.pyplot as plt
+Somepeople may have issues during importing coco file for this we must install h5py version 2.10.0 other versions does not work
+Use the following code
+!pip install h5py=2.10.0
+import h5py
